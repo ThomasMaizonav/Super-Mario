@@ -8,12 +8,25 @@
 </head>
 <body>
 
-    <div class="game-board">
+    <!-- Mini Menu Inicial -->
+    <div id="menu" class="menu">
+        <h1>Super Mario Game</h1>
+        <button id="startButton">Iniciar Jogo</button>
+    </div>
+
+    <!-- Game Board -->
+    <div class="game-board" id="game-board" style="display: none;">
         <img src="images/clouds.png" alt="clouds" class="clouds">
         <img src="images/mario.gif" alt="Mario" class="mario">
         <img src="images/pipe.png" alt="Tubo" class="pipe">
     </div>
-    
+
+    <!-- Botão de Reiniciar -->
+    <div id="restartMenu" class="restart-menu" style="display: none;">
+        <h1>Game Over</h1>
+        <button id="restartButton">Reiniciar Jogo</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
