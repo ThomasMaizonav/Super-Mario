@@ -50,6 +50,7 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
 
 // Eventos de clique para iniciar e reiniciar o jogo
 startButton.addEventListener('click', startGame);
